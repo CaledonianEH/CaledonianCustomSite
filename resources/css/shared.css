@@ -1,3 +1,8 @@
+table {
+    margin: 0;
+    padding: 0;
+}
+
 #loading {
     position: fixed;
     display: block;

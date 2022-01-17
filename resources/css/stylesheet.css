@@ -30,3 +30,44 @@ body {
     text-decoration: none;
     color: #E3DFDF;
 }
+
+/* Header */
+#header {
+    margin-top: 36px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    background-color: rgba(240, 240, 240, 0.85);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-bottom: 150px;
+}
+
+#logoLeft {
+    display: inline-table;
+    float: left;
+    color: #3d3f45;
+    padding-left: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-family: "Poppins ExtraBold", VerdanaB, sans-serif;
+    font-size: 150%;
+}
+
+/* Body text */
+#headerText {
+    padding-top: 15px;
+    /*padding-left: 50px;*/
+    /*margin-right: 30px;*/
+    /*margin-left: 30px;*/
+    font-size: 15pt;
+    word-wrap: break-word;
+    vertical-align: middle;
+    /*width: 100%;*/
+    position: relative;
+    top: -500px;
+}
