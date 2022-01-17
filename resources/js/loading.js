@@ -1,5 +1,10 @@
 
 // Hide loading animation on full load
-$(window).on('load', function () {
-    $('loading').hide().wait(1000);
-})
+function hideLoader() {
+    var element = document.getElementById('loading');
+    if(element.style.display === "none") {
+        element.style.display = "block";
+    }else{
+        element.style.display = "none"
+    }
+}

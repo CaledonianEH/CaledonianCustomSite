@@ -10,8 +10,32 @@
     z-index: 99;
 }
 #loading-image {
-    position: absolute;
-    top: 35%;
-    left: 40%;
-    width: 300px;
+    /*position: absolute;*/
+    /*top: 35%;*/
+    /*left: 40%;*/
+    /*width: 300px;*/
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Animation to loading page */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
 }
